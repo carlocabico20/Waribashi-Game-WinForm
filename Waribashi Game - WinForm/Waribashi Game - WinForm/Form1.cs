@@ -49,6 +49,16 @@ namespace Waribashi_Game___WinForm
                 R1 = 0;
                 
             }
+            if (L2 >= 5)
+            {
+                L2 = 0;
+
+            }
+            if (R2 >= 5)
+            {
+                R2 = 0;
+
+            }
             label9.Text = L1.ToString();
             label10.Text = R1.ToString();
             label11.Text = L2.ToString();
@@ -67,6 +77,16 @@ namespace Waribashi_Game___WinForm
             button8.Enabled = true;
             button9.Enabled = true;
             button10.Enabled = true;
+            if (L1 >= 5)
+            {
+                L1 = 0;
+
+            }
+            if (R1 >= 5)
+            {
+                R1 = 0;
+
+            }
             if (L2 >= 5)
             {
                 L2 = 0;
