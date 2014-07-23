@@ -143,7 +143,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 73);
             this.label9.TabIndex = 9;
-            this.label9.Text = "5";
+            this.label9.Text = "0";
             // 
             // label10
             // 
@@ -154,7 +154,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(69, 73);
             this.label10.TabIndex = 10;
-            this.label10.Text = "5";
+            this.label10.Text = "0";
             // 
             // label11
             // 
@@ -165,7 +165,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(69, 73);
             this.label11.TabIndex = 11;
-            this.label11.Text = "5";
+            this.label11.Text = "0";
             // 
             // label12
             // 
@@ -176,7 +176,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(69, 73);
             this.label12.TabIndex = 12;
-            this.label12.Text = "5";
+            this.label12.Text = "0";
             // 
             // button1
             // 
@@ -187,6 +187,7 @@
             this.button1.TabIndex = 13;
             this.button1.Text = "P1 Left Hand  to P2 Left Hand";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -197,6 +198,7 @@
             this.button2.TabIndex = 14;
             this.button2.Text = "P1 Left Hand  to P2 Right Hand";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -207,6 +209,7 @@
             this.button3.TabIndex = 15;
             this.button3.Text = "P1 Right Hand  to P2 Left Hand";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -217,6 +220,7 @@
             this.button4.TabIndex = 16;
             this.button4.Text = "P1 Right Hand  to P2 Right Hand";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -230,6 +234,7 @@
             // 
             // button6
             // 
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button6.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.Location = new System.Drawing.Point(257, 187);
             this.button6.Name = "button6";
@@ -237,6 +242,7 @@
             this.button6.TabIndex = 22;
             this.button6.Text = "P2 Left Hand  to P1 Left Hand";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -247,6 +253,7 @@
             this.button7.TabIndex = 21;
             this.button7.Text = "P2 Left Hand  to P1 Right Hand";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -257,6 +264,7 @@
             this.button8.TabIndex = 20;
             this.button8.Text = "P2 Right Hand  to P1 Left Hand";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -267,6 +275,7 @@
             this.button9.TabIndex = 19;
             this.button9.Text = "P2 Right Hand  to P1 Right Hand";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -308,6 +317,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Waribashi Game";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
