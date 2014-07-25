@@ -72,12 +72,14 @@ namespace Waribashi_Game___WinForm
                 label13.Text = "Loser";
                 label14.Text = "Winner";                
                 button5.Enabled = false;
+                button10.Enabled = false;
             }
             if ((L2 >= 5 || L2 == 0) && (R2 >= 5 || R2 == 0))
             {
                 label14.Text = "Loser";
                 label13.Text = "Winner";
                 button5.Enabled = false;
+                button10.Enabled = false;
             }
             label9.Text = L1.ToString();
             label10.Text = R1.ToString();
@@ -130,12 +132,14 @@ namespace Waribashi_Game___WinForm
                 label13.Text = "Loser";
                 label14.Text = "Winner";
                 button10.Enabled = false;
+                button5.Enabled = false;
             }
             if ((L2 >= 5 || L2 == 0) && (R2 >= 5 || R2 == 0))
             {
                 label14.Text = "Loser";
                 label13.Text = "Winner";
                 button10.Enabled = false;
+                button5.Enabled = false;
             }
             label9.Text = L1.ToString();
             label10.Text = R1.ToString();
